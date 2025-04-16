@@ -49,7 +49,7 @@ app = FastAPI(title="Zuzzuu API")
 # CORS ayarları (React uygulamasının API'ye erişebilmesi için)
 origins = [
     "http://localhost:3000",  # Local geliştirme ortamı
-    "https://your-netlify-app-name.netlify.app",  # Netlify URL'nizi buraya ekleyin
+    "https://animated-moonbeam-8518e3.netlify.app/",  # Netlify URL'nizi buraya ekleyin
     "*"  # Geliştirme sırasında tüm originlere izin ver, production'da spesifik originleri belirtin
 ]
 
